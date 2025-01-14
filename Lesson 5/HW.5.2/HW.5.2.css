@@ -1,0 +1,216 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.bowlby-one-regular {
+    font-family: "Bowlby One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.inter{
+            font-family: "Inter", serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    /*scroll-behavior: smooth;*/
+}
+body{
+    font-family: "Bowlby One", serif;
+    font-weight: 400;
+    font-style: normal;
+    background: #1E1E1E;
+    width: 100vw;
+}
+
+/*--------------------------- header початок---------------------------------------------------------*/
+
+header{
+    padding: 3.3vh 3.542vw;
+    height: 12.2vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header nav{
+    width: 31.319vw;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a{
+    color: #E9E3DC;
+    font-size: 1.125rem;
+    line-height: 96.896%; /* 17.441px */
+    text-transform: uppercase;
+}
+
+header nav button{
+    width: 14.097vw;
+    height: 5.6vh;
+    flex-shrink: 0;
+    background: #B3A0CD;
+    color: #1E1E1E;
+    font-size: 1.125rem;
+    line-height: 96.896%; /* 17.441px */
+    text-transform: uppercase;
+    font-family: "Bowlby One", serif;
+}
+/*--------------------------- header кінець---------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------------------*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1-NEW-YORK{
+    color: #E9E3DC;
+    text-align: center;
+    font-size: 6.693rem;
+    line-height: 88.896%; /* 95.198px */
+    letter-spacing: -0.1339rem;
+    text-transform: uppercase;
+    width: 87.153vw;
+    margin-top: 3.5vh;
+}
+
+.img-1-burgers_3{
+    width: 48.611vw;
+    height: 36.7vh;
+    margin: 3.1vh 0;
+}
+
+.section-green{
+    width: 93.056vw;
+    height: 34.2vh;
+    border-radius: 1.875rem;
+    border: 0.25rem solid #1E1E1E;
+    background: #D1EF53;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.944vw;
+}
+
+.h2-the-burger{
+    color: #1E1E1E;
+    font-size: 4.375rem;
+    line-height: 88.896%; /* 62.228px */
+    letter-spacing: -0.0875rem;
+    text-transform: uppercase;
+    width: 37.014vw;
+}
+
+.div-button{
+    height: 17.2vh;
+}
+
+.p-Lorem{
+    width: 36.181vw;
+    height: 6.9vh;
+    color: #1E1E1E;
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 139.896%; /* 33.575px */
+    letter-spacing: -0.03rem;
+    margin-bottom: 3.1vh;
+}
+
+.button-About-Us{
+    width: 12.222vw;
+    height: 5.6vh;
+    border: 0.25rem solid #1E1E1E;
+    background: #E9E3DC;
+
+    /* DropShadow */
+    box-shadow: 0.5rem 0.5rem 0 0 #000;
+
+    color: #1E1E1E;
+    text-align: center;
+    font-size: 1.125rem;
+    line-height: 96.896%; /* 17.441px */
+    text-transform: uppercase;
+    font-family: "Bowlby One", serif;
+
+}
+/*---------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------*/
+
+.section-img-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.div-img-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3.3vh 0;
+    gap: 2.778vw;
+
+}
+
+.img-burgers-tower{
+    width: 45.139vw;
+    height: 69.7vh;
+    border-radius: 1.875rem;
+    border: 0.25rem solid #E9E3DC;
+}
+
+.img-people{
+    width: 93.056vw;
+    height: 46.6vh;
+    border-radius: 1.875rem;
+    border: 0.25rem solid #D9D9D9;
+}
+
+.h2-order{
+    color: #E9E3DC;
+    text-align: center;
+    font-size: 4.375rem;
+    line-height: 101.896%; /* 71.328px */
+    text-transform: uppercase;
+    width: 62.153vw;
+    margin: 5.9vh 0 3.1vh 0;
+}
+
+.button-Get-Started{
+    width: 13.611vw;
+    height: 5.6vh;
+    background: #D1EF53;
+    color: #1E1E1E;
+    text-align: center;
+    font-size: 1.125rem;
+    line-height: 96.896%; /* 17.441px */
+    text-transform: uppercase;
+    font-family: "Bowlby One", serif;
+    margin-bottom: 3.3vh;
+}

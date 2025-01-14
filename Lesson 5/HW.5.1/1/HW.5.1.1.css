@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232, 232, 197);
+}
+
+.blue, .red, .green, .color3 {
+    border-radius: 0.625rem;
+    box-shadow: 0.25rem 0.25rem 0.25rem rgb(8, 8, 35);
+
+
+}
+
+
+.box{
+    background-color: #b1e6df;
+    height: 23.1vh;
+    width: 17.4vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    box-shadow: 0.25rem 0.25rem 0.625rem rgb(8, 8, 35);
+
+}
+
+.blue{
+    background-color: blue;
+    height: 4.6vh;
+    width: 6.9vw;
+    animation: blue1 4s linear infinite;
+    animation-delay: 1.36s;
+    position: absolute;
+
+}
+
+@keyframes blue1 {
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+}
+    16%{
+        opacity: 0;
+    }
+    17%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 1;
+    }
+
+    70%{
+        transform: translateY(18.5vh);
+        opacity: 0;
+
+}
+
+100%{
+    transform: translateY(0);
+    opacity: 0;
+
+}
+
+}
+
+.red{
+    background-color: red;
+    height: 4.6vh;
+    width: 6.9vw;
+    animation: red1 4s linear infinite;
+
+    position: absolute;
+
+
+}
+
+
+@keyframes red1 {
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    16%{
+        opacity: 0;
+    }
+    17%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 1;
+    }
+
+    70%{
+        transform: translateY(18.5vh);
+        opacity: 0;
+
+    }
+
+
+    100%{
+        transform: translateY(0);
+        opacity: 0;
+
+    }
+
+}
+
+
+
+.green{
+    background-color: green;
+    height: 4.6vh;
+    width: 6.9vw;
+    animation: green1 4s linear infinite;
+    animation-delay: 2.64s;
+
+    position: absolute;
+
+
+}
+
+
+@keyframes green1 {
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    16%{
+        opacity: 0;
+    }
+    17%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 1;
+    }
+
+    70%{
+        transform: translateY(18.5vh);
+        opacity: 0;
+
+    }
+
+
+    100%{
+        transform: translateY(0);
+        opacity: 0;
+
+    }
+
+}
+
+
+.color3{
+    /*background-color: red;*/
+    height: 4.6vh;
+    width: 6.9vw;
+    animation: color3 4s linear infinite;
+    /*animation-delay: 1s;*/
+    position: absolute;
+
+}
+
+@keyframes color3 {
+    0%{
+        background-color: blue;
+    }
+    33%{
+        background-color: blue;
+    }
+    34%{
+        background-color: green;
+    }
+    66%{
+        background-color: green;
+    }
+    67%{
+        background-color: red;
+    }
+
+    100%{
+        background-color: red;
+    }
+
+}
+

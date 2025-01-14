@@ -1,0 +1,61 @@
+.rubik{
+            font-family: "Rubik", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(232, 230, 230);
+}
+
+.flex-bloc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-bloc{
+    flex-direction: column;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.flex-bloc-food{
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    padding-bottom: 10px;
+    /*border-bottom: 2px solid gray;*/   /*можна було зробити лише нижню лінію для рамки і не використовувати <hr>*/
+}
+
+.food{
+    height: 225px;
+    width: 15%;
+    margin: 10px;
+    flex-direction: column;
+    background-color: rgba(198, 195, 195, 0.4);
+    border-radius: 10%;
+    border: 1px solid gray;
+}
+
+img{
+    width: 75%;
+}
+
+span{
+    margin: 20px 0 0 0;
+    font-size: 18px;
+}
+
+p{
+    font-size: 20px;
+}
+
+hr{
+    height: 2px;
+    width: 90%;
+    background-color: gray;
+}
