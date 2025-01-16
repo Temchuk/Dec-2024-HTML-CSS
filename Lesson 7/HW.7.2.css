@@ -11,7 +11,10 @@
 }
 
 body{
+    width: 100vw;
+
     height: 289.8vh;
+
     font-family: "Inter", serif;
 
 }
@@ -27,6 +30,8 @@ header{
     background: #24204A;
     padding-right: 8.2vw;
     padding-left: 8.2vw;
+    position: fixed;
+    width: 100vw;
 }
 
 header div p{
@@ -40,7 +45,7 @@ header div p{
 }
 
 header nav ul {
-    background-color: #f8a6a6;
+
     display: flex;
     flex-direction: row;
     gap: 4.6vw;
@@ -69,11 +74,12 @@ main{
     padding-left: 8.2vw;
     padding-right: 9.4vw;
     background: #24204A;
-    height: 75.8vh;
+    height: 90.6vh;
+
 }
 
 .div-text{
-    background-color: #e4b4b4;
+
     height: 47.9vh;
     width: 40.7vw;
 
@@ -96,7 +102,7 @@ main{
 
 .p-brown{
     color: #8E88C1;
-    /*font-family: Inter;*/
+
     font-size: 1rem;
     font-style: normal;
     font-weight: 500;
@@ -117,7 +123,7 @@ main h2{
     line-height: normal;
     letter-spacing: 0.081rem;
     margin: 4.2vh 0;
-    background-color: #e48484;
+
 }
 
 .p-text{
@@ -126,7 +132,7 @@ main h2{
     flex-shrink: 0;
 
     color: #8E88C1;
-    /*font-family: Inter;*/
+
     font-size: 1rem;
     font-style: normal;
     font-weight: 500;
@@ -146,7 +152,7 @@ main button{
 
     color: #FFF;
     text-align: center;
-    /*font-family: Inter;*/
+
     font-size: 1rem;
     font-style: normal;
     font-weight: 500;
@@ -174,4 +180,221 @@ main button{
     height: 41.6vh;
 
 }
+/*-------------------------------------------------------------------------------------*/
 
+#section-center{
+    /*width: 1400px;*/
+    height: 100vh;
+    background: #071341;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    padding-top: 6.5vh;
+    padding-bottom: 19.9vh;
+
+}
+
+.all-digits{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 83.6vw;
+    height: 7.3vh;
+
+
+    margin-bottom: 6.5vh ;
+    gap: 5.2vw;
+}
+
+
+
+.entypo1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 12.5vw;
+    height: 7.3vh;
+}
+
+.entypo11, .entypo12, .entypo13, .entypo14, .entypo15{
+
+    border-radius: 0.5rem;
+    width: 4vw;
+    height: 7.3vh;
+    flex-shrink: 0;
+
+}
+
+.entypo11{
+    background: #FF6853;
+    border: 0.5rem solid #FF6853;
+}
+.entypo12{
+    background: #FF537C;
+    border: 0.5rem solid #FF537C;
+}
+.entypo13{
+    background: #80D2C4;
+    border: 0.5rem solid #80D2C4;
+}
+.entypo14{
+    background: #3F50E7;
+    border: 0.5rem solid #3F50E7;
+}
+.entypo15{
+    background:  #95CB7C;
+    border: 0.5rem solid #95CB7C;
+}
+
+
+
+.entypo1 div{
+
+    height: 7.3vh;
+    margin-left: 1.3vw;
+    padding: 0.7vh 0;
+}
+.digits{
+    width: 2.7vw;
+    color: #FFF;
+
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0.4vh;
+}
+.lo-digits{
+    width: 7.2vw;
+    color:  #8E88C1;
+
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem; /* 150% */
+    letter-spacing: 0.05rem;
+}
+
+/*----------------------------*/
+
+/*------------------------------------------------*/
+
+
+.text1{
+    width: 76.4vw;
+    height: 16.5vh;
+
+
+    color: #FFF;
+    text-align: center;
+
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.625rem;
+
+}
+
+.text2{
+
+    height: 3.1vh;
+    margin: 6.5vh auto;
+
+
+    color:  #8E88C1;
+    text-align: center;
+
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0.05rem;
+}
+
+/*--------------------------------------------------*/
+
+.posotion-all{
+    height: 27vh;
+    width: 83.6vw;
+
+    display: flex;
+    flex-direction: row;
+    gap: 2.3vw;
+}
+
+
+
+.posotion-all div{
+    height: 27vh;
+    width: 14.9vw;
+    border-radius: 0.5rem;
+    border: 0.125rem solid  #8E88C1;
+    background: #071341;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    padding: 5.2vh 1.1vw 3.1vh 1.1vw;
+
+
+}
+
+
+
+
+
+.posotion-entypo{
+    width: 3.7vw;
+    height: 6.8vh;
+    flex-shrink: 0;
+
+}
+
+.posotion-all>div>p{
+    margin-top: 3.4vh;
+    color:  #8E88C1;
+    text-align: center;
+
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25rem;
+    letter-spacing: 0.05rem;
+}
+
+/*-----------------*/
+
+#section-map{
+
+    background: #071341;
+    height: 99.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.map{
+    width: 100vw;
+    height: 86.9vh;
+    flex-shrink: 0;
+}
+
+
+
+
+.registered{
+    height: 3.1vh;
+    flex-shrink: 0;
+
+    color: #FFF;
+
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%; /* 24px */
+    margin: 4.6vh auto;
+}
