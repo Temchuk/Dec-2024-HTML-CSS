@@ -1,0 +1,46 @@
+@media screen and (max-width: 375px){
+
+    html{
+        font-size: 12px;
+    }
+    body{
+        width: 100vw;
+        height: 155.9vh;
+    }
+
+    main{
+        width: 91.5vw;
+        height: 146.3vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        flex-direction: column;
+
+        margin: 4.8vh 4.3vw;
+        gap: 4.8vh ;
+
+    }
+    div{
+        height: 33vh;
+        width: 91.5vw;
+
+    }
+    img{
+        width: 34.1vw;
+        height: 19.2vh;
+
+    }
+h3{
+    margin: 2.4vh 0 1.2vh 0;
+}
+
+
+
+
+
+}
+
+
+
