@@ -56,14 +56,14 @@ header{
     padding-left: 95px;
 }
 
-header div{
+.logo{
     background-color: rgba(196, 203, 237, 0.6);
     display: flex;
     flex-direction: row;
     align-items: flex-end;
 }
 
-header div h2{
+.dasteen{
     color: #001858;
     font-size: 36px;
     font-style: normal;
@@ -71,7 +71,7 @@ header div h2{
     line-height: normal;
 }
 
-header div p{
+.blog{
     width: 48px;
     height: 27px;
     color: var(--Blue, #6246EA);
@@ -552,6 +552,7 @@ footer{
     gap: 160px;
     padding-bottom: 50px;
     margin-top: 70px;
+    margin-bottom: 26px;
 
 }
 
@@ -585,10 +586,29 @@ footer{
 
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
-    gap: 95px;
+
 }
+.block-title{
+    margin-bottom: 25px;
+    color: var(--Black, #2B2C34);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.block-text{
+    margin-bottom: 20px;
+    color: var(--Black, #2B2C34);
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 
 
 
