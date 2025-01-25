@@ -551,6 +551,7 @@ footer{
     align-items: flex-start;
     gap: 160px;
     padding-bottom: 50px;
+    margin-top: 70px;
 
 }
 
@@ -563,16 +564,30 @@ footer{
     gap: 20px;
     width: 284px;
     height: 138px;
+}
+.social_icons{
+    display: flex;
+    gap: 30px;
+}
 
+.social_icons img{
+    width: 24px;
+    height: 24px;
 
-    
 }
 
 
 .text{
+
     background-color: #f8e5a8;
     width: 805px;
     height: 245px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 95px;
 }
 
 
