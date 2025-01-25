@@ -1,0 +1,594 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+.plus-jakarta-sans{
+                        font-family: "Plus Jakarta Sans", serif;
+                        font-optical-sizing: auto;
+                        font-weight: 400;
+                        font-style: normal;
+                    }
+
+body{
+    font-family: "Plus Jakarta Sans", serif;
+    background: #EFF0F3;
+    height: 300vh;
+    width: 100vw;
+    /*width: 1440px;*/
+
+}
+
+
+:root{
+    --White:#FFFFFE;
+    --Light-Grey-1: #EFF0F3;
+    --Light-Grey-2: #E4E5E9;
+    --Grey: #C0C0C0;
+    --Dark-Grey: #9A9494;
+    --Black: #2B2C34;
+    --Blue: #6246EA;
+}
+
+
+/*----------------- header початок--------------------------------------------- */
+
+
+header{
+    height: 86px;
+    width: 100%;
+    background: #EFF0F3;
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding-right:95px;
+    padding-left: 95px;
+}
+
+header div{
+    background-color: rgba(196, 203, 237, 0.6);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+header div h2{
+    color: #001858;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+header div p{
+    width: 48px;
+    height: 27px;
+    color: var(--Blue, #6246EA);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+header nav{
+    background-color: rgba(241, 173, 207, 0.92);
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width: 756px;
+    height: 44px;
+}
+
+header nav ul{
+    background-color: #ecfd00;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+
+header nav ul li a {
+    color: var(--Black, #2B2C34);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.li-search{
+    display: flex;
+    gap: 10px;
+    background-color: rgba(255, 81, 16, 0.63);
+}
+
+header nav button img{
+    width: 24px;
+    height: 24px;
+}
+
+header nav button{
+    display: flex;
+    padding: 10px 17px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--Blue, #6246EA);
+    color: #FFFFFE;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 213px;
+    height: 100%;
+}
+/*----------------- header кінець--------------------------------------------- */
+
+
+
+
+/*----------------- main початок--------------------------------------------- */
+
+main{
+    background-color: #fabce2;
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 116px;
+    padding-left: 95px;
+    padding-right: 95px;
+}
+
+main div{
+    background: #06f6df;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 185px;
+    margin-bottom: 284px;
+}
+
+main div h1{
+    width: 617px;
+    color: #2B2C34;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+
+main div p{
+    width: 652px;
+    color: var(--Dark-Grey, #9A9494);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-left: 3px solid #2B2C34 ;
+    height: 56px;
+    padding-left: 12px;
+}
+
+.form {
+    width: 609px;
+    height: 67px;
+    gap: 20px;
+    display: flex;
+   flex-direction: row;
+}
+
+
+.form input{
+    width: 444px;
+    height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left:25px;
+    gap: 10px;
+    border-radius: 8px;
+    background: var(--White, #FFFFFE);
+    color: var(--Grey, #C0C0C0);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--White, #FFFFFE);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    border-radius: 8px;
+    background: var(--Blue, #6246EA);
+}
+
+.button-1{
+    width: 145px;
+    height: 67px;
+}
+
+main img{
+    width: 470px;
+    height: 387px;
+    padding: 12.874px 18.074px 10.757px 17.649px;
+    background: #EFF0F3;
+    margin-top: 164px;
+    margin-bottom: 263px;
+}
+/*----------------- main кінець--------------------------------------------- */
+
+
+
+/*----------------- section1 Browse the category початок-------------------------------------- */
+.browse-the-category{
+    /*background: #e89a9a;*/
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-all-category{
+    background: #92e1da;
+    width: 1252px;
+    height: 365px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    position: relative;
+    /*z-index: -1;*/
+}
+
+.browse-menu{
+    background: #6B6161;
+    display: flex;
+    width: 100%;
+    height: 35px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.browse-menu h3{
+    color: var(--Black, #2B2C34);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.browse-menu div{
+    display: flex;
+    flex-direction: row;
+}
+
+.browse-menu h4{
+    color: var(--Black, #2B2C34);
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.browse-menu  img{
+    width: 6px;
+    height: 14px;
+    margin: 9px 7px 2px 12px;
+}
+
+/*-----------------cards початок-----------------*/
+.div-css-react{
+    height: 280px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 37px;
+}
+
+.cards{
+    width: 220px;
+    height: 280px;
+    border-radius: 8px;
+    background: var(--White, #FFFFFE);
+}
+
+.cards div{
+    height: 120px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    margin: 65px auto 95px 30px;
+}
+
+.cards div img{
+    width: 60px;
+    height: 60px;
+}
+
+.cards div h3{
+    color: var(--Black, #2B2C34);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.cards:hover {
+    background: var(--Blue, #6246EA);
+}
+
+.cards:hover h3 {
+    color: var(--White, #FFFFFE);
+}
+
+.dots{
+    width: 1120px;
+    height: 100px;
+    position: absolute;
+    bottom: -55px; right: -56px;
+    z-index: -1;
+}
+/*----------------- section1 Browse the category кінець-------------------------------------- */
+
+
+
+
+
+/*--------------------------- scroll сторінка 2 початок-------------------------------------------*/
+.content-scroll{
+    /*background-color: #dcfbcd;*/
+    height: 2504px;
+    display: flex;
+
+}
+.content-section{
+    background-color: #fbfbb6;
+    width: 1252px;
+    height: 2344px;
+    margin: 80px 94px;
+    gap: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-1-4{
+    background-color: #c7f6c1;
+    width: 100%;
+    height: 490px;
+}
+
+.all-img-cards-row{
+    background-color: #b1bfec;
+    width: 1252px;
+    height: 425px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-top: 30px;
+}
+
+.img-cards{
+    background-color: rgba(244, 189, 217, 0.92);
+    width: 300px;
+    height: 425px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.img{
+    width: 260px;
+    height: 198px;
+    border-radius: 12.599px;
+    background:  lightgray 50% / cover no-repeat;
+    margin-bottom: 25px;
+}
+
+.img-cards h4{
+    width: 260px;
+    color: var(--Black, #2B2C34);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.ellipse-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.ellipse-content img{
+    width: 57px;
+    height: 57px;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.ellipse-content h5{
+    width: 73px;
+    height: 21px;
+    color: var(--Black, #2B2C34);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.ellipse-content p{
+    margin-top: 4.2px;
+    width: 184px;
+    height: 21px;
+    color: var(--Black, #2B2C34);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.button-2{
+    width: 165px;
+    height: 64px;
+}
+/*--------------------------- scroll сторінка 2 кінець-------------------------------*/
+
+
+
+
+
+
+/*--------------------------------- address початок ----------------------------*/
+address{
+    background-color: #f6cdfa;
+    height: 453px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-address{
+    background: #d3fff8;
+    width: 696px;
+    height: 337px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+address div img{
+
+
+}
+.all-address div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+address h2{
+    color: var(--Black, #2B2C34);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+address p{
+    width: 696px;
+    color: var(--Grey, #C0C0C0);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+/*--------------------------------- address кінець ----------------------------*/
+
+
+
+footer{
+    background-color: #b9c4f6;
+    height: 435px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+
+}
+
+.border{
+    background-color: #c8fac2;
+    width: 1250px;
+    height: 295px;
+    border-bottom: 1px solid #C0C0C0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 160px;
+    padding-bottom: 50px;
+
+}
+
+.icon{
+    background-color: #bfbff4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    width: 284px;
+    height: 138px;
+
+
+    
+}
+
+
+.text{
+    background-color: #f8e5a8;
+    width: 805px;
+    height: 245px;
+}
+
+
+
+
+.copyright{
+    margin-bottom: 26px;
+    color: var(--Black, #2B2C34);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+
+
+
+
