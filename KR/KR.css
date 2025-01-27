@@ -63,7 +63,7 @@ header{
     align-items: flex-end;
 }
 
-.dasteen{
+.logo h2{
     color: #001858;
     font-size: 36px;
     font-style: normal;
@@ -71,7 +71,7 @@ header{
     line-height: normal;
 }
 
-.blog{
+.logo p{
     width: 48px;
     height: 27px;
     color: var(--Blue, #6246EA);
@@ -409,6 +409,9 @@ main img{
     justify-content: space-between;
     align-items: flex-start;
 }
+.img-cards:hover{
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+}
 
 .img{
     width: 260px;
@@ -495,6 +498,8 @@ address{
     gap: 30px;
 }
 address div img{
+    width: 130px;
+    height: 130px;
 
 
 }
@@ -530,7 +535,7 @@ address p{
 
 
 footer{
-    background-color: #b9c4f6;
+    /*background-color: #b9c4f6;*/
     height: 435px;
     display: flex;
     flex-direction: column;
@@ -556,25 +561,48 @@ footer{
 
 }
 
+.darmawan{
+
+    color: var(--Black, #2B2C34);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 .icon{
     background-color: #bfbff4;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
-    gap: 20px;
     width: 284px;
     height: 138px;
 }
 .social_icons{
     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
     gap: 30px;
+    background-color: #fff;
+    height: 30px;
 }
 
-.social_icons img{
-    width: 24px;
-    height: 24px;
 
+.medium{
+    width: 30px;
+    height: 30px;
+
+}
+.twitter{
+    width:22px;
+    height:18px;
+}
+
+.instagram{
+        width: 24px;
+        height: 24px;
 }
 
 
@@ -590,28 +618,39 @@ footer{
     align-items: flex-start;
 
 }
-.block-title{
-    margin-bottom: 25px;
+.text div p a{
+
+
+    color: var(--Black, #2B2C34);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.text div p{
+    margin-bottom: 20px;
+
+}
+
+
+.text div p .block-title{
+
+
     color: var(--Black, #2B2C34);
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-}
-.block-text{
-    margin-bottom: 20px;
-    color: var(--Black, #2B2C34);
 
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+
 }
 
+.text div p:first-child {
+    margin-bottom: 25px;
 
-
-
+}
 
 .copyright{
     margin-bottom: 26px;
@@ -622,6 +661,8 @@ footer{
     line-height: normal;
 
 }
+
+
 
 
 
