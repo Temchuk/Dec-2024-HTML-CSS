@@ -307,37 +307,37 @@ main img{
 
 /*-----------------cards початок-----------------*/
 .div-css-react{
-    height: 280px;
+    height: 33.4vh;
     width: 100%;
     display: flex;
     flex-direction: row;
-    gap: 37px;
+    gap: 2.6vw;
 }
 
 .cards{
-    width: 220px;
-    height: 280px;
-    border-radius: 8px;
+    width: 15.3vw;
+    height: 33.4vh;
+    border-radius: 0.5rem;
     background: var(--White, #FFFFFE);
 }
 
 .cards div{
-    height: 120px;
+    height: 14.3vh;
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 30px;
-    margin: 65px auto 95px 30px;
+    gap: 3.6vh;
+    margin: 7.7vh auto 11.3vh 2.1vw;
 }
 
 .cards div img{
-    width: 60px;
-    height: 60px;
+    width: 4.2vw;
+    height: 7.2vh;
 }
 
 .cards div h3{
     color: var(--Black, #2B2C34);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -353,10 +353,10 @@ main img{
 }
 
 .dots{
-    width: 1120px;
-    height: 100px;
+    width: 77.8vw;
+    height: 11.9vh;
     position: absolute;
-    bottom: -55px; right: -56px;
+    bottom: -6vh; right: -3.9vw;
     z-index: -1;
 }
 /*----------------- section1 Browse the category кінець-------------------------------------- */
